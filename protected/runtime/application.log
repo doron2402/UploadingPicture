@@ -1,0 +1,439 @@
+2012/11/17 00:54:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "images" was not found.' in C:\wamp\www\yii\framework\web\actions\CViewAction.php:113
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\actions\CViewAction.php(124): CViewAction->resolveView('images')
+#1 C:\wamp\www\yii\framework\web\actions\CAction.php(75): CViewAction->run()
+#2 C:\wamp\www\yii\framework\web\CController.php(309): CAction->runWithParams(Array)
+#3 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#4 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('page')
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/page')
+#7 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\wamp\www\UploadPic2\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/UploadPic2/index.php?r=site/page&view=images
+HTTP_REFERER=http://localhost/UploadPic2/
+---
+2012/11/17 00:55:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "images" was not found.' in C:\wamp\www\yii\framework\web\actions\CViewAction.php:113
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\actions\CViewAction.php(124): CViewAction->resolveView('images')
+#1 C:\wamp\www\yii\framework\web\actions\CAction.php(75): CViewAction->run()
+#2 C:\wamp\www\yii\framework\web\CController.php(309): CAction->runWithParams(Array)
+#3 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#4 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('page')
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/page')
+#7 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\wamp\www\UploadPic2\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/UploadPic2/index.php?r=site/page&view=images
+HTTP_REFERER=http://localhost/UploadPic2/
+---
+2012/11/17 00:55:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\UploadPic2\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/UploadPic2/index.php?r=site/images&view=images
+HTTP_REFERER=http://localhost/UploadPic2/index.php?r=site/page&view=images
+---
+2012/11/17 00:55:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\UploadPic2\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/UploadPic2/index.php?r=site/images&view=images
+HTTP_REFERER=http://localhost/UploadPic2/index.php?r=site/images&view=images
+---
+2012/11/17 02:08:12 [error] [php] Undefined variable: dataSelect (C:\wamp\www\UploadPic2\protected\controllers\SiteController.php:93)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\UploadPic2\index.php(13): CWebApplication->run()
+REQUEST_URI=/UploadPic2/index.php?r=site/images&view=images
+in C:\wamp\www\UploadPic2\protected\controllers\SiteController.php (93)
+in C:\wamp\www\UploadPic2\index.php (13)
+2012/11/17 02:08:17 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.0" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\schema\CDbCriteria.php(161): CComponent->__set('0', 'Src')
+#1 C:\wamp\www\yii\framework\db\schema\CDbCommandBuilder.php(462): CDbCriteria->__construct(Array)
+#2 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1395): CDbCommandBuilder->createCriteria(Array, Array)
+#3 C:\wamp\www\UploadPic2\protected\controllers\SiteController.php(92): CActiveRecord->find(Array)
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionImages()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('images')
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images')
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\UploadPic2\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/UploadPic2/index.php?r=site/images&view=images
+HTTP_REFERER=http://localhost/UploadPic2/index.php?r=site/index
+---
+2012/11/17 02:11:40 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: SELECT * FROM `images` `t` WHERE Src=:Src.
+in C:\wamp\www\UploadPic2\protected\controllers\SiteController.php (93)
+in C:\wamp\www\UploadPic2\index.php (13)
+2012/11/17 02:11:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: SELECT * FROM `images` `t` WHERE Src=:Src' in C:\wamp\www\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\UploadPic2\protected\controllers\SiteController.php(93): CActiveRecord->findAll('Src=:Src', Array)
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionImages()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('images')
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images')
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\UploadPic2\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/UploadPic2/index.php?r=site/images&view=images
+HTTP_REFERER=http://localhost/UploadPic2/index.php?r=site/index
+---
+2012/11/17 02:11:42 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: SELECT * FROM `images` `t` WHERE Src=:Src.
+in C:\wamp\www\UploadPic2\protected\controllers\SiteController.php (93)
+in C:\wamp\www\UploadPic2\index.php (13)
+2012/11/17 02:11:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: SELECT * FROM `images` `t` WHERE Src=:Src' in C:\wamp\www\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\UploadPic2\protected\controllers\SiteController.php(93): CActiveRecord->findAll('Src=:Src', Array)
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionImages()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('images')
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images')
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\UploadPic2\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/UploadPic2/index.php?r=site/images&view=images
+HTTP_REFERER=http://localhost/UploadPic2/index.php?r=site/index
+---
+2012/11/17 02:12:30 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: SELECT * FROM `images` `t` WHERE Src=:Src.
+in C:\wamp\www\UploadPic2\protected\controllers\SiteController.php (93)
+in C:\wamp\www\UploadPic2\index.php (13)
+2012/11/17 02:12:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: SELECT * FROM `images` `t` WHERE Src=:Src' in C:\wamp\www\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\UploadPic2\protected\controllers\SiteController.php(93): CActiveRecord->findAll('Src=:Src', Array)
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionImages()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('images')
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images')
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\UploadPic2\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/UploadPic2/index.php?r=site/images&view=images
+HTTP_REFERER=http://localhost/UploadPic2/index.php?r=site/index
+---
+2012/11/17 02:15:18 [error] [php] Trying to get property of non-object (C:\wamp\www\UploadPic2\protected\controllers\SiteController.php:94)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\UploadPic2\index.php(13): CWebApplication->run()
+REQUEST_URI=/UploadPic2/index.php?r=site/images&view=images
+in C:\wamp\www\UploadPic2\protected\controllers\SiteController.php (94)
+in C:\wamp\www\UploadPic2\index.php (13)
+2012/11/17 02:17:23 [error] [php] include(ModelClass.php): failed to open stream: No such file or directory (C:\wamp\www\yii\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\wamp\www\UploadPic2\protected\controllers\SiteController.php(93): spl_autoload_call()
+#1 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionImages()
+#2 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\wamp\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#4 C:\wamp\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#7 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\wamp\www\UploadPic2\index.php(13): CWebApplication->run()
+REQUEST_URI=/UploadPic2/index.php?r=site/images&view=images
+in C:\wamp\www\UploadPic2\protected\controllers\SiteController.php (93)
+in C:\wamp\www\UploadPic2\index.php (13)
+2012/11/17 02:17:24 [error] [php] include(ModelClass.php): failed to open stream: No such file or directory (C:\wamp\www\yii\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\wamp\www\UploadPic2\protected\controllers\SiteController.php(93): spl_autoload_call()
+#1 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionImages()
+#2 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\wamp\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#4 C:\wamp\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#7 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\wamp\www\UploadPic2\index.php(13): CWebApplication->run()
+REQUEST_URI=/UploadPic2/index.php?r=site/images&view=images
+in C:\wamp\www\UploadPic2\protected\controllers\SiteController.php (93)
+in C:\wamp\www\UploadPic2\index.php (13)
+2012/11/17 02:20:25 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*) from images' at line 1. The SQL statement executed was: SELECT Sum(*) from images;.
+in C:\wamp\www\UploadPic2\protected\controllers\SiteController.php (93)
+in C:\wamp\www\UploadPic2\index.php (13)
+2012/11/17 02:20:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*) from images' at line 1. The SQL statement executed was: SELECT Sum(*) from images;' in C:\wamp\www\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(425): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\wamp\www\UploadPic2\protected\controllers\SiteController.php(93): CDbCommand->queryScalar()
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionImages()
+#3 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('images')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\UploadPic2\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/UploadPic2/index.php?r=site/images&view=images
+HTTP_REFERER=http://localhost/UploadPic2/index.php?r=site/index
+---
+2012/11/17 02:20:34 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*) from images' at line 1. The SQL statement executed was: SELECT Sum(*) from images.
+in C:\wamp\www\UploadPic2\protected\controllers\SiteController.php (93)
+in C:\wamp\www\UploadPic2\index.php (13)
+2012/11/17 02:20:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*) from images' at line 1. The SQL statement executed was: SELECT Sum(*) from images' in C:\wamp\www\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(425): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\wamp\www\UploadPic2\protected\controllers\SiteController.php(93): CDbCommand->queryScalar()
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionImages()
+#3 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('images')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\UploadPic2\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/UploadPic2/index.php?r=site/images&view=images
+HTTP_REFERER=http://localhost/UploadPic2/index.php?r=site/index
+---
+2012/11/17 02:20:35 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*) from images' at line 1. The SQL statement executed was: SELECT Sum(*) from images.
+in C:\wamp\www\UploadPic2\protected\controllers\SiteController.php (93)
+in C:\wamp\www\UploadPic2\index.php (13)
+2012/11/17 02:20:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*) from images' at line 1. The SQL statement executed was: SELECT Sum(*) from images' in C:\wamp\www\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(425): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\wamp\www\UploadPic2\protected\controllers\SiteController.php(93): CDbCommand->queryScalar()
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionImages()
+#3 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('images')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\UploadPic2\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/UploadPic2/index.php?r=site/images&view=images
+HTTP_REFERER=http://localhost/UploadPic2/index.php?r=site/index
+---
+2012/11/17 02:20:39 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*) from images' at line 1. The SQL statement executed was: SELECT Sum(*) from images.
+in C:\wamp\www\UploadPic2\protected\controllers\SiteController.php (93)
+in C:\wamp\www\UploadPic2\index.php (13)
+2012/11/17 02:20:39 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*) from images' at line 1. The SQL statement executed was: SELECT Sum(*) from images' in C:\wamp\www\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(425): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\wamp\www\UploadPic2\protected\controllers\SiteController.php(93): CDbCommand->queryScalar()
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionImages()
+#3 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('images')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\UploadPic2\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/UploadPic2/index.php?r=site/images&view=images
+HTTP_REFERER=http://localhost/UploadPic2/index.php?r=site/index
+---
+2012/11/17 02:36:19 [error] [php] Array to string conversion (C:\wamp\www\UploadPic2\protected\controllers\SiteController.php:97)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\UploadPic2\index.php(13): CWebApplication->run()
+REQUEST_URI=/UploadPic2/index.php?r=site/images&view=images
+in C:\wamp\www\UploadPic2\protected\controllers\SiteController.php (97)
+in C:\wamp\www\UploadPic2\index.php (13)
+2012/11/17 02:37:16 [error] [php] Array to string conversion (C:\wamp\www\UploadPic2\protected\controllers\SiteController.php:98)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\UploadPic2\index.php(13): CWebApplication->run()
+REQUEST_URI=/UploadPic2/index.php?r=site/images&view=images
+in C:\wamp\www\UploadPic2\protected\controllers\SiteController.php (98)
+in C:\wamp\www\UploadPic2\index.php (13)
+2012/11/17 02:37:17 [error] [php] Array to string conversion (C:\wamp\www\UploadPic2\protected\controllers\SiteController.php:98)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\UploadPic2\index.php(13): CWebApplication->run()
+REQUEST_URI=/UploadPic2/index.php?r=site/images&view=images
+in C:\wamp\www\UploadPic2\protected\controllers\SiteController.php (98)
+in C:\wamp\www\UploadPic2\index.php (13)
+2012/11/17 02:40:07 [error] [php] Undefined offset: 2 (C:\wamp\www\UploadPic2\protected\controllers\SiteController.php:97)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\UploadPic2\index.php(13): CWebApplication->run()
+REQUEST_URI=/UploadPic2/index.php?r=site/images&view=images
+in C:\wamp\www\UploadPic2\protected\controllers\SiteController.php (97)
+in C:\wamp\www\UploadPic2\index.php (13)
+2012/11/17 05:16:33 [error] [php] Undefined offset: 2 (C:\wamp\www\UploadPic2\protected\controllers\SiteController.php:97)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\UploadPic2\index.php(13): CWebApplication->run()
+REQUEST_URI=/UploadPic2/index.php?r=site/images&view=images
+in C:\wamp\www\UploadPic2\protected\controllers\SiteController.php (97)
+in C:\wamp\www\UploadPic2\index.php (13)
+2012/11/17 05:16:34 [error] [php] Undefined offset: 2 (C:\wamp\www\UploadPic2\protected\controllers\SiteController.php:97)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\UploadPic2\index.php(13): CWebApplication->run()
+REQUEST_URI=/UploadPic2/index.php?r=site/images&view=images
+in C:\wamp\www\UploadPic2\protected\controllers\SiteController.php (97)
+in C:\wamp\www\UploadPic2\index.php (13)
+2012/11/17 05:19:06 [error] [php] Undefined variable: Images (C:\wamp\www\UploadPic2\protected\views\site\images.php:15)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\wamp\www\UploadPic2\protected\controllers\SiteController.php(93): SiteController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionImages()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\UploadPic2\index.php(13): CWebApplication->run()
+REQUEST_URI=/UploadPic2/index.php?r=site/images&view=images
+in C:\wamp\www\UploadPic2\protected\views\site\images.php (15)
+in C:\wamp\www\UploadPic2\protected\controllers\SiteController.php (93)
+in C:\wamp\www\UploadPic2\index.php (13)
+2012/11/17 05:20:57 [error] [php] Undefined variable: Images (C:\wamp\www\UploadPic2\protected\views\site\images.php:15)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\wamp\www\UploadPic2\protected\controllers\SiteController.php(93): SiteController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionImages()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\UploadPic2\index.php(13): CWebApplication->run()
+REQUEST_URI=/UploadPic2/index.php?r=site/images&view=images
+in C:\wamp\www\UploadPic2\protected\views\site\images.php (15)
+in C:\wamp\www\UploadPic2\protected\controllers\SiteController.php (93)
+in C:\wamp\www\UploadPic2\index.php (13)
+2012/11/17 05:20:58 [error] [php] Undefined variable: Images (C:\wamp\www\UploadPic2\protected\views\site\images.php:15)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\wamp\www\UploadPic2\protected\controllers\SiteController.php(93): SiteController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionImages()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\UploadPic2\index.php(13): CWebApplication->run()
+REQUEST_URI=/UploadPic2/index.php?r=site/images&view=images
+in C:\wamp\www\UploadPic2\protected\views\site\images.php (15)
+in C:\wamp\www\UploadPic2\protected\controllers\SiteController.php (93)
+in C:\wamp\www\UploadPic2\index.php (13)
+2012/11/17 05:20:58 [error] [php] Undefined variable: Images (C:\wamp\www\UploadPic2\protected\views\site\images.php:15)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\wamp\www\UploadPic2\protected\controllers\SiteController.php(93): SiteController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionImages()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\UploadPic2\index.php(13): CWebApplication->run()
+REQUEST_URI=/UploadPic2/index.php?r=site/images&view=images
+in C:\wamp\www\UploadPic2\protected\views\site\images.php (15)
+in C:\wamp\www\UploadPic2\protected\controllers\SiteController.php (93)
+in C:\wamp\www\UploadPic2\index.php (13)
+2012/11/17 05:20:59 [error] [php] Undefined variable: Images (C:\wamp\www\UploadPic2\protected\views\site\images.php:15)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\wamp\www\UploadPic2\protected\controllers\SiteController.php(93): SiteController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionImages()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\UploadPic2\index.php(13): CWebApplication->run()
+REQUEST_URI=/UploadPic2/index.php?r=site/images&view=images
+in C:\wamp\www\UploadPic2\protected\views\site\images.php (15)
+in C:\wamp\www\UploadPic2\protected\controllers\SiteController.php (93)
+in C:\wamp\www\UploadPic2\index.php (13)
+2012/11/17 05:22:04 [error] [php] Undefined variable: Img_arr (C:\wamp\www\UploadPic2\protected\views\site\images.php:15)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\wamp\www\UploadPic2\protected\controllers\SiteController.php(93): SiteController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionImages()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\UploadPic2\index.php(13): CWebApplication->run()
+REQUEST_URI=/UploadPic2/index.php?r=site/images&view=images
+in C:\wamp\www\UploadPic2\protected\views\site\images.php (15)
+in C:\wamp\www\UploadPic2\protected\controllers\SiteController.php (93)
+in C:\wamp\www\UploadPic2\index.php (13)
+2012/11/17 17:42:52 [error] [php] mail(): Failed to connect to mailserver at &quot;&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() (C:\wamp\www\UploadPic2\protected\controllers\SiteController.php:113)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\wamp\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#2 C:\wamp\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\wamp\www\UploadPic2\index.php(13): CWebApplication->run()
+REQUEST_URI=/UploadPic2/index.php?r=site/SendEmailPic
+in C:\wamp\www\UploadPic2\protected\controllers\SiteController.php (113)
+in C:\wamp\www\UploadPic2\index.php (13)
